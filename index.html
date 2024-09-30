@@ -13,7 +13,7 @@
   </head>
   <body>
     <header class="header">
-      <menu class="header__menu">
+      <div class="header__menu">
         <ul class="header__links-list header__links-list-unmarked">
           <li class="header__links-list-item">
             <a class="header__links-list-link" href="#0">главная</a>
@@ -27,7 +27,7 @@
             <a href="#0">об аукционе</a>
           </li>
         </ul>
-      </menu>
+      </div>
       <a class="header__logo" href="#0">
         <img
           class="header__logo-image"
@@ -37,29 +37,28 @@
       </a>
       <div class="header__address">
         <address class="address">
-          <a href="tel:+9 999 555 5555">+9 999 555 5555</a>
+          <a href="tel:+99995555555">+9 999 555 5555</a>
           <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
           <p class="address">наб. Принсенграхт 263-<br />265, Амстердам</p>
         </address>
       </div>
     </header>
     <main>
-      <content>
-        <div class="title">
-          <div class="title__text">
+        <div class="cover">
+          <div class="title__text cover">
             <h1>
               <span class="title__text_line1">Он<span class="title__text_line-padding-left">о</span></span>
               <span class="title__text_line2">теб<span class="title__text_line-padding-left">е</span></span>
               <span class="title__text_line3"><span class="title__text_line-padding-right">н</span>адо</span>
             </h1>
           </div>
-          <div class="title__image"/>
+          <div class="title__image"></div>
           <div class="overlay"></div>
           <div class="title__footer">
             <span class="title__footer-subtext">
               Аукцион вещей, в которые никто не верил
             </span>
-            <btn class="title__footer-button">Сделать ставку</btn>
+            <button class="title__footer-button">Сделать ставку</button>
           </div>
         </div>
         <article class="lots">
@@ -117,7 +116,7 @@
 
         <div class="about">
           <div class="about__logo">
-            <img class="about__logo-image" src="./images/logo-white.svg" />
+            <img class="about__logo-image" src="./images/logo-white.svg" alt="Логотип 'Оно тебе надо'"/>
           </div>
           <h2 class="about__title">Об аукционе</h2>
           <div class="about__text">
@@ -139,11 +138,10 @@
             </p>
           </div>
         </div>
-      </content>
     </main>
     <footer class="footer">
       <address class="address">
-        <a href="tel:+9 999 555 5555">+9 999 555 5555</a>
+        <a href="tel:+99995555555">+9 999 555 5555</a>
         <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
         <p class="address">наб. Принсенграхт 263-<br />265, Амстердам</p>
       </address>
@@ -162,13 +160,13 @@
       </nav>
       <nav class="footer__social-list">
         <a class="footer__social-link" href="#0">
-          <img class="footer__social-icon" src="images/yt.svg">
+          <img class="footer__social-icon" src="images/yt.svg" alt="Логотип Ютюб">
         </a>
         <a class="footer__social-link" href="#0">
-          <img class="footer__social-icon" src="images/vk.svg">
+          <img class="footer__social-icon" src="images/vk.svg" alt="Логотип Вконтакте">
         </a>
         <a class="footer__social-link" href="#0">
-          <img class="footer__social-icon" src="images/pinterest.svg">
+          <img class="footer__social-icon" src="images/pinterest.svg" alt="Логотип Пинтерест">
         </a>
       </nav>
     </footer>

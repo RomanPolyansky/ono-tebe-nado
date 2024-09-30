@@ -76,7 +76,7 @@
   text-decoration: underline;
 }
 
-.title {
+.cover {
   position: relative;
   top: 0;
   left: 0;
@@ -157,6 +157,10 @@
 }
 
 .title__footer-button {
+  text-transform: uppercase;
+  font-family: Raleway, sans-serif;
+  font-size: 22px;
+  color: #FFF;
   padding: 12px 32px 11px 31px;
   border: solid 1px #FFF;
   background-color: transparent;
