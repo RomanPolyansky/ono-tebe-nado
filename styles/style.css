@@ -25,15 +25,10 @@
   list-style: circle;
   gap: 27px;
   font-size: 18px;
-  /* margin-left: 1em; */
-  /* padding-left: 1em; */
 }
 
 .header__links-list-unmarked {
   list-style-type: none;
-}
-
-.header__links-list-item {
 }
 
 .header__links-list a {
