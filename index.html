@@ -14,13 +14,11 @@
   </head>
   <body>
     <header class="header">
-      <div class="header__menu">
-        <ul class="header__links-list header__links-list-unmarked">
-          <li class="header__links-list-item">
+      <nav class="header__menu">
+        <ul class="header__links-list">
+          <li class="header__links-list-item header__links-list-unmarked">
             <a class="header__links-list-link" href="#0">главная</a>
           </li>
-        </ul>
-        <ul class="header__links-list">
           <li class="header__links-list-link header__link_active">
             <a href="#0">посмотреть лоты</a>
           </li>
@@ -28,7 +26,7 @@
             <a href="#0">об аукционе</a>
           </li>
         </ul>
-      </div>
+      </nav>
       <a class="header__logo" href="#0">
         <img
           class="header__logo-image"
@@ -36,25 +34,20 @@
           alt="Логотип 'Оно тебе надо'"
         />
       </a>
-      <div class="header__address">
-        <address class="address">
-          <a href="tel:+99995555555">+9 999 555 5555</a>
-          <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
-          <p class="address">наб. Принсенграхт 263-<br />265, Амстердам</p>
-        </address>
-      </div>
+      <address class="address">
+        <a href="tel:+99995555555">+9 999 555 5555</a>
+        <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+        <p class="address">наб. Принсенграхт 263-<br />265, Амстердам</p>
+      </address>
     </header>
     <main>
-        <section class="cover">
-          <div class="title__text cover">
-            <h1>
-              <span class="title__text_line1">Он<span class="title__text_line-padding-left">о</span></span>
-              <span class="title__text_line2">теб<span class="title__text_line-padding-left">е</span></span>
-              <span class="title__text_line3"><span class="title__text_line-padding-right">н</span>адо</span>
-            </h1>
-          </div>
-          <div class="title__image"></div>
+        <section class="cover title__image">
           <div class="overlay"></div>
+          <h1 class="title__text">
+            <span class="title__text_line1">Он<span class="title__text_line-padding-left">о</span></span>
+            <span class="title__text_line2">теб<span class="title__text_line-padding-left">е</span></span>
+            <span class="title__text_line3"><span class="title__text_line-padding-right">н</span>адо</span>
+          </h1>
           <div class="title__footer">
             <span class="title__footer-subtext">
               Аукцион вещей, в которые никто не верил
@@ -114,7 +107,6 @@
 
           <a class="lots__look-more-link"> посмотреть больше </a>
         </section>
-
         <article class="about">
           <div class="about__logo">
             <img class="about__logo-image" src="./images/logo-white.svg" alt="Логотип 'Оно тебе надо'"/>

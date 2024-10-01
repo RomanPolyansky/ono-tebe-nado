@@ -44,17 +44,12 @@
   height: 105px;
 }
 
-.header__address {
-  display: block;
-  grid-area: address;
-  justify-self: right;
-  padding-right: 62px;
-}
-
 .address {
   display: flex;
+  padding-right: 31px;
+  grid-area: address;
+  justify-self: right;
   flex-direction: column;
-  grid-area: logo;
   gap: 4px;
   font-size: 18px;
   font-style: normal;
@@ -69,7 +64,9 @@
   position: relative;
   top: 0;
   left: 0;
-  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .title__image {
@@ -82,10 +79,11 @@
 }
 
 .title__text {
-  position: absolute;
-  top: 0;
-  left: 0;
   display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  padding: 165px 50px 0;
   color: #fff;
   font-weight: 700;
   letter-spacing: 1.85rem;
@@ -93,28 +91,19 @@
 }
 
 .title__text_line1 {
-  position: absolute;
-  display: flex;
-  padding-top: 163px;
-  padding-left: 50px;
   font-size: 100px;
 }
 
 .title__text_line2 {
-  position: absolute;
-  display: flex;
-  padding-top: 290px;
-  padding-left: 336px;
+  padding-left: 286px;
   font-size: 100px;
 }
 
 .title__text_line3 {
-  position: absolute;
-  display: flex;
-  padding-top: 411px;
-  padding-left: 633px;
+  margin-top: -7px;
+  margin-right: -29px;
   font-size: 100px;
-  text-align: right;
+  text-align: end;
 }
 
 .title__text_line-padding-left {
@@ -126,15 +115,13 @@
 }
 
 .title__footer {
-  position: absolute;
-  top: 655px;
-  left: 0;
   display: flex;
   flex-direction: row;
+  justify-self: end;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
   padding-right: 50px;
+  padding-bottom: 51px;
   padding-left: 78px;
   color: #fff;
   font-size: 22px;
@@ -180,7 +167,6 @@
   display: flex;
   flex-grow: 1;
   width: 334px;
-  height: 563px;
   color: #fff;
   background-position: 50%;
   background-size: cover;
