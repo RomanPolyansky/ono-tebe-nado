@@ -46,11 +46,11 @@
 
 .address {
   display: flex;
-  padding-right: 31px;
+  flex-direction: column;
   grid-area: address;
   justify-self: right;
-  flex-direction: column;
   gap: 4px;
+  padding-right: 31px;
   font-size: 18px;
   font-style: normal;
 }
@@ -156,6 +156,7 @@
 
 .lots__card-list {
   display: flex;
+  flex-wrap: wrap;
   gap: 25px;
 }
 
@@ -281,7 +282,7 @@
 .footer__menu-list {
   display: flex;
   flex-direction: column;
-  gap: 3px;
+  gap: 0px;
   list-style: none;
 }
 
@@ -292,10 +293,12 @@
 }
 
 .footer__menu-link {
+  font-size: 18px;
   text-decoration: none;
 }
 
 .footer__menu-link-active {
+  font-size: 18px;
   text-decoration: underline;
 }
 
