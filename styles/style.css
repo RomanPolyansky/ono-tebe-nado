@@ -71,7 +71,6 @@
 
 .title__image {
   position: relative;
-  z-index: -5;
   height: 757px;
   background-image: url(../images/cover.jpg);
   background-position: 50%;
@@ -79,6 +78,7 @@
 }
 
 .title__text {
+  z-index: 2;
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -115,6 +115,7 @@
 }
 
 .title__footer {
+  z-index: 2;
   display: flex;
   flex-direction: row;
   justify-self: end;
@@ -160,11 +161,14 @@
   gap: 25px;
 }
 
+.no-decoration {
+  text-decoration: none;
+}
+
 .card {
   position: relative;
   top: 0;
   left: 0;
-  z-index: -5;
   display: flex;
   flex-grow: 1;
   width: 334px;
@@ -175,12 +179,12 @@
 
 .card-link {
   position: relative;
+  z-index: 2;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
   padding: 51px 40px 48px;
-  text-decoration: none;
 }
 
 .card__title {
@@ -317,7 +321,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  z-index: -1;
+  z-index: 1;
   width: 100%;
   height: 100%;
   opacity: 0.5;
